@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e7abe2;
+    background-color: #fae7f8;
     color: #333;
 }
 
@@ -13,7 +13,7 @@ body {
 /* Navigation */
 
 nav {
-    background-color: #47068b;
+    background-color: #b07ce9;
     padding: 15px;
     text-align: center;
 }
@@ -21,7 +21,7 @@ nav {
 
 
     nav a {
-        color: rgb(7, 7, 7);
+        color: rgb(31, 196, 81);
         text-decoration: none;
         margin: 0 15px;
     }
