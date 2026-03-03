@@ -13,7 +13,7 @@ body {
 /* Navigation */
 
 nav {
-    background-color: #b07ce9;
+    background-color: #e6c1e1;
     padding: 15px;
     text-align: center;
 }
@@ -21,7 +21,7 @@ nav {
 
 
     nav a {
-        color: rgb(26, 0, 32);
+        color: rgb(40, 4, 48);
         text-decoration: none;
         margin: 0 15px;
     }
