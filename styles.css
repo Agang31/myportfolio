@@ -15,7 +15,7 @@ body {
 nav {
     background-color: #e6c1e1;
     padding: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -37,10 +37,19 @@ nav {
 /* Headers */
 
 header {
-    background-color: #ce75e4;
+    background-color: #ce75e4;s
     color: #ffffff;
     padding: 30px;
     text-align: center;
+
+    /* Elegant Dancing Script for all headings */
+    h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    color: #4b0082;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px #d8b0ff;
 }
 
 /* Main Content */
@@ -65,10 +74,10 @@ img {
 
 /* About Paragraph Animation */
 
-.home-text {
+.home-text, .about-text {
     opacity: 0;
     transform: translateY(40px);
-    animation: slideFade 1.5s ease forwards;
+    animation: slideFade 3s ease forwards;
 }
 
     @keyframes slideFade {
