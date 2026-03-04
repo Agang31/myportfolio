@@ -65,10 +65,11 @@ img {
 
 /* About Paragraph Animation */
 
-.about-text {
+.home-text {
     opacity: 0;
-    transform: translateX(-50px);
+    transform: translateY(40px);
     animation: slideFade 1.5s ease forwards;
+}
 
     @keyframes slideFade {
         to {
@@ -76,4 +77,3 @@ img {
             transform: translateX(0);
         }
     }
-}
