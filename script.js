@@ -22,8 +22,8 @@ toggleButton.addEventListener('click', function() {
 const texts = [ 
 
     "Hi, I'm Agang Tebo Qanxwa!", 
-    "I'm an aspiring Web Developer", 
-    "I Build Cool Things", 
+    "An aspiring Web Developer", 
+    "I Build Cool websites like this one.", 
     "Welcome to My Portfolio!" 
 ]; 
 
