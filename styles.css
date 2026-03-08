@@ -108,3 +108,14 @@ body.dark-mode nav { background-color: #222222; }
     transition: background-color 0.3s; 
 } 
 #back-to-top:hover { background-color: #cf6cc2; }
+
+.filter-btn { 
+    padding: 8px 16px; margin: 5px; 
+    border: 1px solid #08484b; 
+    background: white; color: #7acce0; 
+    cursor: pointer; border-radius: 4px; 
+} 
+.filter-btn.active { background: #5a265f; color: white; } 
+.project-card { transition: all 0.3s; margin: 15px 0; padding: 15px; 
+    border: 1px solid #ddd; border-radius: 8px; } 
+.project-card.hidden { display: none; } 
