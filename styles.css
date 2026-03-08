@@ -6,6 +6,7 @@ body {
     padding: 0;
     background-color: #fae7f8;
     color: #333;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 
@@ -70,3 +71,10 @@ img {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(102, 17, 75, 0.1);
 }
+
+body.dark-mode { 
+    background-color: #333333; 
+    color: #f9f9f9; 
+} 
+body.dark-mode nav { background-color: #222222; } 
+#theme-toggle { padding: 8px 16px; cursor: pointer; margin: 10px; } 
